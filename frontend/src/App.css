@@ -1,0 +1,51 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  background-color: #0a0a0a;
+}
+
+.neon-text {
+  font-size: 2.5rem;
+  color: #00f0ff;
+  text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff;
+}
+
+.text-teal {
+  color: #00f0ff;
+}
+
+.btn-teal {
+  background-color: #00f0ff;
+  color: black;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-teal:hover {
+  background-color: #00c2d4;
+  color: white;
+}
+
+.custom-input {
+  background-color: #1a1a1a;
+  color: #00f0ff;
+  border: 1px solid #00f0ff;
+  resize: none;
+}
+
+.custom-input::placeholder {
+  color: #aaa;
+}
+
+.response-box {
+  background-color: #121212;
+  border-left: 4px solid #00f0ff;
+  color: #eee;
+  border-radius: 6px;
+}
