@@ -1,51 +1,83 @@
+/* frontend/src/App.css */
+
 body,
 html {
   margin: 0;
   padding: 0;
-  background-color: #0a0a0a;
+  background-color: #1f1f1f;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fdfdfd;
+  height: 100%;
+  width: 100%;
 }
 
 .app-container {
-  background-color: #0a0a0a;
+  padding: 40px 80px;
+  background-color: #2b2b2b;
+  border-radius: 0;
+  box-shadow: none;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
 }
 
-.neon-text {
-  font-size: 2.5rem;
-  color: #00f0ff;
-  text-shadow: 0 0 5px #00f0ff, 0 0 10px #00f0ff;
+.title-text {
+  font-size: 2.2rem;
+  color: #34d399;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
-.text-teal {
-  color: #00f0ff;
-}
-
-.btn-teal {
-  background-color: #00f0ff;
-  color: black;
-  border: none;
-  transition: all 0.3s ease;
-}
-
-.btn-teal:hover {
-  background-color: #00c2d4;
-  color: white;
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+  max-width: 100%;
 }
 
 .custom-input {
-  background-color: #1a1a1a;
-  color: #00f0ff;
-  border: 1px solid #00f0ff;
+  background-color: #333;
+  color: #f0f0e1;
+  border: 1px solid #34d399;
+  padding: 16px;
+  border-radius: 6px;
+  font-size: 1.1rem;
   resize: none;
+  width: 100%;
+  min-height: 120px;
+  box-sizing: border-box;
 }
 
 .custom-input::placeholder {
   color: #aaa;
 }
 
-.response-box {
-  background-color: #121212;
-  border-left: 4px solid #00f0ff;
-  color: #eee;
+.btn-emerald {
+  background-color: #34d399;
+  color: #111;
+  border: none;
   border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.btn-emerald:hover {
+  background-color: #10b981;
+  color: white;
+}
+
+.response-box {
+  background-color: #262626;
+  border-left: 4px solid #34d399;
+  color: #fdfdfd;
+  padding: 24px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  font-size: 1.05rem;
 }
