@@ -50,10 +50,10 @@ async def chat_handler(request: QueryRequest):
         combined_context = "\n\n".join([r.page_content for r in results])
 
         # 📜 Prompt tailored to environmental data
-        prompt = f"""You are an expert at receiving data, analysing it thoroughly, and giving detailed responses, based only on the context fed to you.
-
-        Use the context below — which contains excerpts from wildlife and environmental field reports — 
-        to answer the user's question as informatively as possible. Reference facts from the context only, and do not make up data.
+        prompt = f"""
+        You are an expert at receiving data, analysing it thoroughly, and giving detailed responses, based only on the context fed to you.
+        Use the context below to answer the user's question in 5-10 sentences. 
+        Reference facts from the context only, and do not make up data.
 
 Context:
 {combined_context}

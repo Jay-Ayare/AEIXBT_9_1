@@ -36,7 +36,7 @@ function App() {
       <h1 className="neon-text mb-4">AEIXBT | Sustainability Chat</h1>
 
       <textarea
-        className="custom-input w-full p-2 mb-2 rounded"
+        className="custom-input w-full p-2 mb-4 rounded"
         rows="4"
         placeholder="Ask a sustainability-related question..."
         value={query}
@@ -44,7 +44,7 @@ function App() {
       />
 
       <button
-        className="btn-teal px-4 py-2 rounded mb-4"
+        className="btn-emerald px-4 py-2 rounded mb-6"
         onClick={handleSubmit}
         disabled={loading}
       >

@@ -1,0 +1,129 @@
+{
+  "web3_data": [
+    {
+      "id": "uniswap-2023",
+      "project": "Uniswap",
+      "type": "DEX",
+      "token": "UNI",
+      "latest_update": "2023-11-15",
+      "updates": {
+        "governance": "DAO approved fee switch proposal with 72% votes",
+        "technical": "Launched v4 with custom pool architectures",
+        "financial": "TVL grew 40% QoQ to $4.2B despite market downturn",
+        "sustainability": "0.05% of fees allocated to carbon offset program"
+      },
+      "metrics": {
+        "market_cap": "$3.8B",
+        "token_price": "$6.42 (-12% MoM)",
+        "circulating_supply": "598M UNI",
+        "governance_participation": "14% of token holders voted last proposal"
+      }
+    },
+    {
+      "id": "aave-2023",
+      "project": "Aave",
+      "type": "Lending Protocol",
+      "token": "AAVE",
+      "latest_update": "2023-12-02",
+      "updates": {
+        "governance": "GHO stablecoin minting parameters adjusted via DAO vote",
+        "technical": "Cross-chain expansion to Base L2 completed",
+        "financial": "Protocol revenue up 28% YoY",
+        "sustainability": "Proposed treasury diversification into green bonds (vote pending)"
+      },
+      "metrics": {
+        "market_cap": "$1.2B",
+        "token_price": "$89.10 (+5% MoM)",
+        "circulating_supply": "14M AAVE",
+        "governance_participation": "22% voter turnout"
+      }
+    },
+    {
+      "id": "makerdao-2023",
+      "project": "MakerDAO",
+      "type": "Stablecoin Protocol",
+      "token": "MKR",
+      "latest_update": "2023-10-30",
+      "updates": {
+        "governance": "Endgame Phase 1 passed with 68% approval",
+        "technical": "Spark Protocol launched for DAI lending",
+        "financial": "DAI supply grew to $5.3B after USDC depegging event",
+        "sustainability": "Treasury allocates 0.1% yield to climate fund"
+      },
+      "metrics": {
+        "market_cap": "$1.8B",
+        "token_price": "$1,420 (+18% MoM)",
+        "circulating_supply": "1.2M MKR",
+        "governance_participation": "9% (low after Endgame controversy)"
+      }
+    },
+    {
+      "id": "opensea-2023",
+      "project": "OpenSea",
+      "type": "NFT Marketplace",
+      "token": "OSEA (proposed)",
+      "latest_update": "2023-09-18",
+      "updates": {
+        "governance": "Delayed token launch due to regulatory concerns",
+        "technical": "Added Solana NFT support",
+        "financial": "Market share dropped to 18% after royalty changes",
+        "sustainability": "Partnered with Offsetra for NFT carbon tracking"
+      },
+      "metrics": {
+        "market_cap": "N/A",
+        "token_price": "Unlaunched",
+        "volume": "$240M (30-day, -60% YoY)"
+      }
+    },
+    {
+      "id": "arbitrum-2023",
+      "project": "Arbitrum DAO",
+      "type": "L2 Protocol",
+      "token": "ARB",
+      "latest_update": "2023-12-10",
+      "updates": {
+        "governance": "Grant program funded 32 ecosystem projects",
+        "technical": "Nitro upgrade reduced fees by 15%",
+        "financial": "TVL surpassed $2.5B",
+        "sustainability": "No explicit sustainability initiatives yet"
+      },
+      "metrics": {
+        "market_cap": "$1.5B",
+        "token_price": "$1.12 (-22% since airdrop)",
+        "circulating_supply": "1.3B ARB",
+        "governance_participation": "7% (mostly whales)"
+      }
+    },
+    {
+      "id": "filecoin-2023",
+      "project": "Filecoin",
+      "type": "Storage Network",
+      "token": "FIL",
+      "latest_update": "2023-11-28",
+      "updates": {
+        "governance": "FIP-0036 passed to reduce miner penalties",
+        "technical": "Data onboarding increased 300% after deal",
+        "financial": "Circulating supply adjusted -5% via new burning",
+        "sustainability": "Green storage initiative: 45% of nodes run on renewables"
+      },
+      "metrics": {
+        "market_cap": "$2.1B",
+        "token_price": "$4.80 (+8% MoM)",
+        "circulating_supply": "438M FIL",
+        "storage_capacity": "18EiB"
+      }
+    }
+  ],
+  "market_analytics": {
+    "total_value_locked": "$42B (-35% from 2022 peak)",
+    "stablecoin_market_cap": "$128B (USDT 72% dominance)",
+    "governance_trends": {
+      "average_voter_turnout": "12% (down from 19% in 2022)",
+      "proposal_success_rate": "61%"
+    },
+    "sustainability_metrics": {
+      "projects_with_eco_initiatives": "38% of top 50",
+      "carbon_offset_investments": "$6.2M (2023 YTD)"
+    }
+  }
+}
