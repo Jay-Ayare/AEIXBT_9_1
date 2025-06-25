@@ -14,16 +14,17 @@ function App() {
     setAnswer("Thinking...");
 
     try {
-      const response = await fetch("http://localhost:8000/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ query }),
-      });
+      const response = await fetch("http://localhost:8000/api/chat", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({ query }),
+});
+
 
       const data = await response.json();
-      setAnswer(data.answer);
+      setAnswer(data.response);  // ✅ Fixed key
     } catch (err) {
       setAnswer("⚠️ Failed to get a response. Please try again.");
     }
