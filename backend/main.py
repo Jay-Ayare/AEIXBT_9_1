@@ -1,19 +1,24 @@
-# backend/main.py
-
+import os
+from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from RAG_pipeline.Query_Handler import router as query_router
 
-app = FastAPI()
+load_dotenv()  # Load environment variables from .env file
 
-# Allow frontend at localhost:3000 to access this backend
+app = FastAPI(title="AEIXBT RAG API")
+
+# Enable CORS for local dev or your frontend domain
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["*"],  # Change to your frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Register routes
-app.include_router(query_router)
+app.include_router(query_router, prefix="/api")
+
+@app.get("/")
+async def root():
+    return {"message": "Welcome to AEIXBT RAG backend"}
