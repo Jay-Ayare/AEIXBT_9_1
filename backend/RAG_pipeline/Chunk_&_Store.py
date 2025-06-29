@@ -61,4 +61,4 @@ vectorstore = FAISS.from_texts(docs, embedder, metadatas=metadatas)
 vectorstore.save_local(save_path)
 
 print(f"\n✅ Embedded {len(records)} entries into {len(docs)} chunks.")
-print(f"📦 Vector store saved at: {save_path}")
+print(f"📦 Vector store saved at: {save_path}") 
